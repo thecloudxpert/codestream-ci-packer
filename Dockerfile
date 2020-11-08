@@ -1,7 +1,7 @@
 FROM thecloudxpert/codestream-ci:latest
 LABEL maintainer="thecloudxpert"
 
-ENV PACKER_VER=1.6.2
+ENV PACKER_VER=1.6.5
 
 # Install jq
 RUN     yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm && \
