@@ -1,6 +1,7 @@
 FROM thecloudxpert/codestream-ci:latest
 LABEL maintainer="thecloudxpert"
 
+WORKDIR /packer
 ENV PACKER_VER=1.6.5
 
 # Install jq
