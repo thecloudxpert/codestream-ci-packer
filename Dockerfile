@@ -4,6 +4,8 @@ LABEL maintainer="thecloudxpert"
 ENV PACKER_VER=1.6.5
 
 # Install jq
+
+RUN     yum -y install wget unzip
 RUN     yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm && \
         yum install jq -y
 
