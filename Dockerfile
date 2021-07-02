@@ -3,7 +3,7 @@ LABEL maintainer="thecloudxpert"
 
 WORKDIR /packer
 
-ENV PACKER_VER=1.6.4
+ENV PACKER_VER=1.7.3
 
 # Install jq
 
